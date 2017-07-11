@@ -1,4 +1,4 @@
-package model_probe
+package probeModels
 
 import (
 	"github.com/astaxie/beego/orm"
@@ -14,5 +14,4 @@ type Car struct {
 
 func init() {
 	orm.RegisterModel(new(Car))
-
 }

@@ -8,5 +8,5 @@ import (
 
 func init() {
 	beego.Router("/", &controllers.MainController{})
-	beego.Router("/GetJson", &controllers.MainController{},"get:GetJson")
+	beego.Router("/GetJson", &controllers.MainController{}, "get:GetJson")
 }
